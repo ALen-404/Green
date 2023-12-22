@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>jt_icon</title>
+    <defs>
+        <path d="M30,15 C30,23.2841667 23.2841667,30 15,30 C6.71583332,30 0,23.2841667 0,15 C0,6.71583332 6.71583332,0 15,0 C23.2841667,0 30,6.71583332 30,15 Z" id="path-1"></path>
+        <filter x="-50.0%" y="-50.0%" width="200.0%" height="200.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.247058824   0 0 0 0 0.71372549   0 0 0 0 0.823529412  0 0 0 0.197622446 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页-copy-4" transform="translate(-173.000000, -340.000000)">
+            <g id="Path" transform="translate(173.000000, 340.000000)">
+                <g>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill-opacity="0.501314603" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g transform="translate(15.000000, 15.000000) rotate(90.000000) translate(-15.000000, -15.000000) translate(8.000000, 11.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                    <path d="M13.9092712,4.17447138 C13.96627,4.13560126 14.0002554,4.07075681 14,4.00154002 C14,3.93268513 13.9659707,3.86829921 13.9092712,3.82963193 L8.45390136,0.0333282429 C8.39204552,-0.00957277591 8.31066346,-0.0111840785 8.2471737,0.0292351931 C8.18241746,0.0709455965 8.14657062,0.145754938 8.15450268,0.222631796 L8.15450268,2.91892835 L1.08210004,2.91892835 C0.48447269,2.91892835 -7.31882422e-17,3.40340104 0,4.00102839 C7.31882422e-17,4.59865574 0.48447269,5.08312843 1.08210004,5.08312843 L8.1239518,5.08312843 L8.1239518,5.08312843 L8.1239518,7.78044825 C8.12802525,7.86026272 8.17079649,7.93393762 8.23800844,7.97179833 C8.30512953,8.01047217 8.38789623,8.00929531 8.45390136,7.96872854 L13.9092712,4.17447138 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
